@@ -10,9 +10,9 @@ from time import sleep
 from boto3 import client
 
 
-os.environ["AWS_ACCESS_KEY_ID"] = 'AKIAV7RY5NII44HEILLU'
-os.environ["AWS_SECRET_ACCESS_KEY"] = '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'
-os.environ["AWS_DEFAULT_REGION"] = 'eu-north-1'
+os.environ["AWS_ACCESS_KEY_ID"] = 'AKIAV7RYhgII44HEILLU'
+os.environ["AWS_SECRET_ACCESS_KEY"] = 'jcFGwEWhfYY2/0UlPX1LAf+Q2RD7Zcfqd5YYSmkR'
+os.environ["AWS_DEFAULT_REGION"] = 'eu-north-3'
 
 athena_client = client('athena', region_name='eu-north-1', aws_access_key_id=os.environ["AWS_ACCESS_KEY_ID"], aws_secret_access_key=os.environ["AWS_SECRET_ACCESS_KEY"])
 
